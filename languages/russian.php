@@ -146,7 +146,7 @@ $LNG['track_hidden_1_ttl'] = $LNG['track_hidden_2_ttl'] = 'Доступ к Тр�
 $LNG['track_suspended_1'] = 'Извините, но этот трек был временно заблокирован из-за заявления о нарушении авторских прав. Если вы считаете, что это ошибка, пожалуйста, свяжитесь с нами.';
 $LNG['track_suspended_1_ttl'] = 'Трек Временно Заблокирован';
 $LNG['playlist_hidden'] = 'Извините, но это закрытый плейлист, только автор плейлиста может просмотреть его.';
-$LNG['playlist_hidden_ttl'] = 'Закрытый Плелист';
+$LNG['playlist_hidden_ttl'] = 'Закрытый Плейлист';
 $LNG['comment'] = 'Комментарий';
 $LNG['share'] = 'Поделиться';
 $LNG['autoplay'] = 'Авто воспроизведение';
@@ -248,7 +248,7 @@ $LNG['3_upload_err'] = '<strong>%s</strong> Не допустимый форма
 $LNG['4_upload_err'] = 'Выбранная обложка слишком велика. Допускается максимальный размер файла %s';
 $LNG['5_upload_err'] = 'Выбранная обложка имеет не допустимый формат. Загрузите файл в формате %s';
 $LNG['6_upload_err'] = 'Описание должно быть не менее %s символов';
-$LNG['7_upload_err'] = 'Ссылка на Покупку содержит неверны URL';
+$LNG['7_upload_err'] = 'Ссылка на Покупку содержит неверный URL';
 $LNG['8_upload_err'] = 'Вы можете добавить только до %s тегов';
 $LNG['9_upload_err'] = 'Вы должны добавить по крайней мере  %s тег';
 $LNG['10_upload_err'] = 'Название трека не должно быть пустым';
@@ -340,12 +340,6 @@ $LNG['sub_facebook'] = 'ID профиля в Facebook.';
 $LNG['ttl_twitter'] = 'Twitter';
 $LNG['sub_twitter'] = 'ID профиля в Twitter.';
 
-$LNG['ttl_vk'] = 'VK';
-$LNG['sub_vk'] = 'ID профиля в VK.';
-
-$LNG['ttl_ok'] = 'OK.RU';
-$LNG['sub_ok'] = 'ID профиля в Odnoklassniki.Ru.';
-
 $LNG['ttl_google'] = 'Google+';
 $LNG['sub_google'] = 'ID профиля в Google+.';
 
@@ -366,18 +360,6 @@ $LNG['sub_vimeo'] = 'ID профиля в Vimeo.';
 
 $LNG['ttl_lastfm'] = 'Last.fm';
 $LNG['sub_lastfm'] = 'ID профиля в Last.fm.';
-
-$LNG['ttl_vk'] = 'VK';
-$LNG['sub_vk'] = 'ID профиля в VK.';
-
-$LNG['ttl_ok'] = 'OK.RU';
-$LNG['sub_ok'] = 'ID профиля в Одноклассниках.';
-
-$LNG['ttl_paypal'] = 'Paypal.Me';
-$LNG['sub_paypal'] = 'ID профиля в Paypal.Me.';
-
-$LNG['ttl_instagram'] = 'Instagram';
-$LNG['sub_instagram'] = 'ID профиля в Instagram.';
 
 $LNG['ttl_description'] = 'Описание';
 $LNG['sub_description'] = 'Описание профиля (160 символов или меньше)';
@@ -528,14 +510,14 @@ $LNG['admin_sub_pro_total_size'] = 'Общий Размер для загруз�
 $LNG['admin_as3'] = 'Amazon S3 Storage';
 $LNG['admin_sub_as3'] = 'Включить Amazon S3 Storage';
 
-$LNG['admin_as3_key'] = 'Key';
-$LNG['admin_sub_as3_key'] = 'Amazon S3 Access Key ID';
+$LNG['admin_as3_key'] = 'Ключ';
+$LNG['admin_sub_as3_key'] = 'Amazon S3 Ключ Доступа';
 
-$LNG['admin_as3_secret'] = 'Secret Key';
-$LNG['admin_sub_as3_secret'] = 'Amazon S3 Secret Access Key';
+$LNG['admin_as3_secret'] = 'Секретный Ключ';
+$LNG['admin_sub_as3_secret'] = 'Amazon S3 Секретный Ключ Доступа';
 
-$LNG['admin_as3_region'] = 'Region';
-$LNG['admin_sub_as3_region'] = 'Amazon S3 Region';
+$LNG['admin_as3_region'] = 'Регион';
+$LNG['admin_sub_as3_region'] = 'Amazon S3 Регион';
 
 $LNG['admin_as3_bucket'] = 'Bucket';
 $LNG['admin_sub_as3_bucket'] = 'Amazon S3 Bucket Name';
